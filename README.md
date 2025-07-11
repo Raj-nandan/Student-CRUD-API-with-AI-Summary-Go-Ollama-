@@ -23,5 +23,66 @@ This is a simple RESTful API built in Go using the Gorilla Mux router. It allows
 ### 1. Clone the Repository
 
 ```bash
-git 
+git clone https://github.com/Raj-nandan/FealtyX-assignment
+cd FealtyX-assignment
+
+```
+### 2. Installing Dependencies
+
+```bash
+go mod tidy
+```
+
+### 3. Run the Server
+
+```bash
+go run main.go
+```
+server will start at: http://localhost:8080
+
+### Start Ollama and Llama3
+
+```bash
+ollama run llama3
+```
+the model will be running on: http://localhost:11434
+
+
+### Api EndPoints
+
+/students (POST)
+```
+json data
+
+{
+  "id": 1,
+  "name": "Raj",
+  "age": 11,
+  "email": "raj@gmail.com"
+}
+```
+
+/students (GET)
+```
+return all the students data
+```
+/students/{id} (GET)
+```
+return students with particular 'ID'
+```
+/students/{id} {PUT)
+```
+updates student data with respected ID
+```
+/students/{id} (DELET)
+```
+Delete student with respected ID
+```
+
+/students/{id}/summary
+```
+Return summary of student data from LLM model
+
+
+
 
