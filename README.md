@@ -23,8 +23,8 @@ This is a simple RESTful API built in Go using the Gorilla Mux router. It allows
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Raj-nandan/FealtyX-assignment
-cd FealtyX-assignment
+git clone https://github.com/Raj-nandan/Student-CRUD-API-with-AI-Summary-Go-Ollama-.git
+cd Student-CRUD-API-with-AI-Summary-Go-Ollama-
 
 ```
 ### 2. Installing Dependencies
